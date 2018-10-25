@@ -8,19 +8,17 @@
 | Fragment         | `LoginFragment`        |
 | Dialog           | `LoginDialog`        |
 
-### Resources files <Resources>
+### Resources files
 
 #### Layout
 
-| Component        | Class name             | Layout name                 |
-| ---------------- | ---------------------- | ----------------------------- |
+| Component        | Class name             | Layout name               |
+| ---------------- | ---------------------- | -----------------------------|
 | Activity         | `LoginActivity`        | `activity_login.xml`   |
-| Fragment         | `LoginFragment`        | `fragment_login.xml`        |
+| Fragment         | `LoginFragment`        | `fragment_login.xml`      |
 | Dialog           | `LoginDialog`          | `dialog_login.xml`  |
-| AdapterView item | ---                    | `item_person.xml`             |
+| AdapterView item | ---                    | `item_person.xml`         |
 | Partial layout   | ---                    | `layout_header.xml`       |
-
-Naming id
 
 
 #### Drawable files
@@ -59,6 +57,19 @@ Naming selector states:
 | Disabled     | `_disabled`     | `btn_order_disabled.9.png`  |
 | Selected     | `_selected`     | `btn_order_selected.9.png`  |
 
+
+
+## Naming variable
+
+### Layout Component
+
+| Type         | Example           |
+|--------------| ------------------|
+| Button       |  button_login      |
+| TextView     | text_login  |
+| ImageView     | image_login  |
+| ImageView     | image_login  |
+
 #### String
 ```
 <string name="login">Login</string>
@@ -80,5 +91,3 @@ If we want to make something that reusable and easy to change then we should use
 ```
 Should name like this to prevent create too many color with same value.  
 If we want to make something that reusable and easy to change then we should use style
-
-
